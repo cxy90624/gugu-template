@@ -1,0 +1,46 @@
+.turnfooter{
+    padding: 10px;
+    font-size: 12px;
+    color: #484848;
+    text-align: center;
+    background: #E1E1E1;
+    width: 100%;
+    clear: both;
+}
+.tpage{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.cus-word{
+    font-size: 15px;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 20px;
+    padding: 10px;
+}
+.custom_title{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 0px;
+}
+.custom_title2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 20px;
+    padding:0px 10px;
+    margin-top: 10px;
+}
+.couponD-pic img{
+    display: block;
+}
+.couponD-pic{
+    margin-top:10px;
+}
+.couponD-word{
+    margin-top: 10px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+	<title>咕咕</title>
+	<link rel="stylesheet" href="css/theme1.css">
+	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/swiper-2.7/idangerous.swiper.min.js"></script>
+</head>
+<body>
+	<div class="ex_container">
+		<div class="indexPage">
+			<!-- title -->
+			<header id="header" class="header color1">
+	            <span>咕咕</span>
+	            <div class="cl-right"></div>
+	        </header>
+	        <!-- cont -->
+	        <article class="index-pd">
+	        	<!-- 头图展示 -->
+	        	<div class="index-picShow">
+	        		<div class="swiper-container">
+				      <div class="swiper-wrapper">
+				        <div class="swiper-slide"> 
+				        	<img src="http://7xlctd.com1.z0.glb.clouddn.com/image/common/wapDFImage.png" />
+				        </div>
+				        <div class="swiper-slide"> 
+				        	<img src="http://7xlctd.com1.z0.glb.clouddn.com/image/common/s3hl.png" />
+				        </div>
+				        <div class="swiper-slide">
+				          	<img src="http://7xlctd.com1.z0.glb.clouddn.com/image/common/smsImage.png" />
+				        </div>
+				        <div class="swiper-slide">
+				          	<img src="http://7xlctd.com1.z0.glb.clouddn.com/image/common/backkey.png" />
+				        </div>
+				      </div>
+				    </div>
+				    <div class="pagination"></div>
+	        	</div>
+	        </article>
+	        <article class="index-modle clearfix">
+	        	<!-- 最新优惠 -->
+	    		<div class="index-zxyh">
+		            <div class="index-zxyh-div1">
+		                <img src="http://7xlctd.com1.z0.glb.clouddn.com/image/theme1/newPrivilege.png">
+		            </div>
+		            <div class="index-zxyh-div2">
+		                <div>最新优惠</div>
+		            </div>
+	    		</div>
+	    		<!-- 产品介绍 -->
+	    		<div class="index-cpjs">
+		            <div class="index-cpjs-div1">
+		                <img src="http://7xlctd.com1.z0.glb.clouddn.com/image/theme1/product.png">
+		            </div>
+		            <div class="index-cpjs-div2">
+		                <div>产品介绍</div>
+		            </div>
+	    		</div>
+	    		<!-- 关于我们 -->
+	    		<div class="index-gywm">
+		            <div class="index-gywm-div1">
+		                <img src="http://7xlctd.com1.z0.glb.clouddn.com/image/theme1/aboutus.png">
+		            </div>
+		            <div class="index-gywm-div2">
+		                <div>关于我们</div>
+		            </div>
+	    		</div>
+	    		<!-- 联系我们 -->
+	    		<div class="index-lxwm">
+		            <div class="index-lxwm-div1">
+		                <img src="http://7xlctd.com1.z0.glb.clouddn.com/image/theme1/contactus.png">
+		            </div>
+		            <div class="index-lxwm-div2">
+		                <div>联系我们</div>
+		            </div>
+	    		</div>
+	        </article>
+	        <div class="footer1">由北京青牛风科技有限公司©提供技术支持</div>
+	        <!-- 底部下载提示条 -->
+		    <div class="app_download">
+		    	<img class="icon-app" src="http://7xlctd.com1.z0.glb.clouddn.com/image/common/ic_launcher.png">
+		    	<img class="slogan-app" src="http://7xlctd.com1.z0.glb.clouddn.com/image/common/gugu-slogan.png">
+		    	<a class="close-app"><img src="http://7xlctd.com1.z0.glb.clouddn.com/image/common/down-load-close.png"></a>
+		    	<button class="get-app">立即体验</button>
+		    </div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			var mySwiper = new Swiper('.swiper-container',{
+			    pagination: '.pagination',
+			    loop:true,
+			    grabCursor: true,
+			    autoplay:5000,
+			    paginationClickable: true,
+			    onTouchEnd: function(swiper){
+			      mySwiper.startAutoplay();
+			    }
+			});
+			
+		})
+	</script>
+</body>
+</html>

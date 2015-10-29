@@ -1,0 +1,19 @@
+.tpage{
+    width: 100%;
+    overflow: hidden;
+}
+.turntable{
+    background: #F46600;
+}
+.turnfooter{
+    padding: 10px;
+    font-size: 12px;
+    color: #484848;
+    text-align: center;
+    background: #E1E1E1;
+    width: 100%;
+    clear: both;
+}
+.couponD-pic img{
+    display: block;
+}

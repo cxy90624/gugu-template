@@ -1,0 +1,401 @@
+.tpage{
+    width: 100%;
+    overflow: hidden;
+}
+.card{
+    width: 100%;
+    background: url(../image/common/start.png);
+}
+.card1 .card-car{
+    width:100%;
+    
+}
+.card1 .card-title{
+    color: #7FCDE5;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+}
+.card1 .pinfotb {
+    background: url(../image/common/sc2bk.png)no-repeat center center;
+    background-size: 100% 100%;
+    width: 90%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.card1 .prizeInfo {
+    opacity: 1;
+    color: white;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+.card1 .prizeInfo th,.card1 .prizeInfo td {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+.tdate {
+    width: 90%;
+    margin: 10px auto 0px;
+    font-size: 12px;
+    color: white;
+}
+.beak-word {
+    width: 90%;
+    margin: 0px auto;
+    font-size: 12px;
+    color: white;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-family: "微软雅黑", "宋体", Arial, sans-serif;
+}
+.tpd1 {
+    padding: 10px 10px 0px 10px;
+}
+.turnfooter {
+    padding: 10px;
+    font-size: 12px;
+    color: #484848;
+    text-align: center;
+    background: #E1E1E1;
+    width: 100%;
+    clear: both;
+}
+.card1 .card-div{
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+.card1 .card-times{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+.card1 .cardlate{
+    margin-top: 15px;
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    /*background: url(../image/common/gkend.png) 50% 50% / auto 100% no-repeat;*/
+}
+.card1 .card-top{
+    position:relative;
+}
+.card1 .prize_area {
+    margin-top: 15px;
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 9; 
+    background: white;
+}
+.card1 .card-area{
+    margin-top: 15px;
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 12; 
+    background: transparent;
+}
+.card1 .sc1{
+    border-image: url(../image/common/sc2border.png)10 10 round;
+    border-width: 5px;
+}
+.sc2people{
+    height: 32px;
+    line-height: 35px;
+    color: white;
+    padding-left: 30px;
+    font-size: 14px;
+    margin-top:10px;
+}
+.card1-name{
+    margin: 5px auto 0px;
+    width: 90%;
+    max-width: 300px;
+}
+.card1 .scrollList {
+    padding: 10px;
+    width: 100%;
+    color: white;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    height: 80px;
+}
+.card1 .scrollList table {
+    width: 100%;
+}
+.card1 .scrollList td {
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+/*刮刮卡2*/
+.card2{
+    background: #E1BD12;
+}
+.card2-top{
+    /*background: url(../image/common/g_cloud.png) center bottom no-repeat;*/
+    background-size: 100% auto;
+    width: 100%;
+    height: 250px;
+    padding-top: 10px;
+}
+.card2-div{
+    width: 100%;
+    height: 240px;
+    /*background: url(../image/common/home.png) center center no-repeat;
+    background-size: auto 100%;*/
+}
+.card2 .card-div{
+    height: 160px;
+    padding-top: 80px;
+    position:relative;
+}
+.card2-title{
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 40px;
+}
+.card2 .prize_area {
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 9;
+    background: white;
+}
+.card2 .sc1 {
+    border: 5px solid white;
+}
+.card2 .card-area {
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 12;
+    background: transparent;
+}
+.card2 .cardlate {
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    /* background: url(../image/common/gkend.png) 50% 50% / auto 100% no-repeat; */
+}
+.card2 .card-times{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 165px;
+    width: 100%;
+    text-align:center;
+}
+.card2 .prizeInfo {
+    color: white;
+    width: 275px;
+    border-collapse: collapse;
+    background: #EC6337;
+    margin: 10px auto 0px;
+}
+.card2 .prizeInfo th,.card2 .prizeInfo td {
+    border: 1px solid #FF9306;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+.card2 .peopleList {
+    background: #EC6337;
+    width: 275px;
+    margin: 0px auto;
+    border: 1px solid #FF9306;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+.card2 .cmt10{
+    margin-top: 10px;
+}
+.card2 .t_center {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card2 .scrollList {
+    background: #FF9306;
+    padding: 10px;
+}
+.card2 .scrollList table {
+    width: 100%;
+}
+.card2 .scrollList td {
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    text-align: center;
+}
+/*刮刮卡3*/
+.card3 .tdate {
+    width: 90%;
+    margin: 10px auto 0px;
+    font-size: 12px;
+    color: black;
+}
+.card3 .beak-word {
+    width: 90%;
+    margin: 0px auto;
+    font-size: 12px;
+    color: black;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-family: "微软雅黑", "宋体", Arial, sans-serif;
+}
+.card3{
+    background: #FEFCBF;
+}
+.card3 .card-top{
+    padding: 10px;
+    color: #EF3952;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+.card3-bg{
+    width: 300px;
+}
+.card3-times{
+    font-size: 14px;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    width: 300px;
+}
+.prizetime{
+    width: 200px;
+    border-radius: 4px;
+}
+.card3-center{
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
+.card3 .prize_area {
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 9;
+    background: white;
+    top:61px;
+}
+.card3 .card-area {
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 12;
+    background: transparent;
+    top:61px;
+}
+.card3 .cardlate {
+    height: 80px;
+    width: 225px;
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    top:61px;
+    /* background: url(../image/common/gkend.png) 50% 50% / auto 100% no-repeat; */
+}
+.card3-bottom{
+    width: 100%;
+}
+.card3 .pinfotb{
+    border: 1px dashed #AA6B0A;
+    padding: 2px;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 5px;
+}
+.card3 .prizeInfo {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0px auto;
+    border-radius: 7px;
+    border: 0px;
+    background-color: #F8D67E;
+}
+.card3 .prizeInfo th,.card3 .prizeInfo td {
+    border: 1px solid white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+.card3 .cmt10{
+    margin-top: 10px;
+}
+.card3 .peopleList {
+     opacity: 0.4; 
+    background: #EE9C1D;
+    width: 100%;
+    margin: 0px auto;
+    color: black;
+    padding: 10px 0px 10px 0px;
+    font-size: 12px;
+}
+.card3 .t_center {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card3 .scrollList {
+    border-top: 1px solid white;
+    height: 80px;
+}
+.card3 .scrollList table {
+    width: 100%;
+}
+.card3 .scrollList td {
+    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-size: 12px;
+    text-align: center;
+}

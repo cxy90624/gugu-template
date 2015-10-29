@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+	<title>优惠券详情</title>
+	<link rel="stylesheet" href="css/theme2.css">
+	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/layer/layer.js"></script>
+	<script type="text/javascript" src="js/alertJs.js"></script>
+</head>
+<body>
+	<div class="ex_container">
+		<div class="page">
+			<!-- title -->
+			<header id="header" class="header color1">
+	            <div class="backicon"></div>
+	            <span>优惠详情</span>
+	            <div class="wmhome"></div>
+	        </header>
+	        <!-- cont -->
+	        <article class="pd2">
+	        	<div class="couponD_inner">
+	        		<h3 class="couponD_title">测试领取规则23</h3>
+	        		<div class="couponD-pic">
+                    	<img src="image/common/wapDFImage.png" />
+                    	<!-- 优惠券以抢光提示 -->
+                    	<div class="couponD-none none">
+                    		<div class="tips">
+                                优惠券已抢光
+                            </div>
+                    	</div>
+                    </div>
+                    <!-- 代金券 -->
+	        		<div class="couponD-wrapper none">
+                        <span class="coupon-details">
+                            38
+                        </span>
+                        <span class="coupon-unit">
+                            元
+                        </span>
+                        <span class="couponD-type couponD-djq">
+                            代金券
+                        </span>
+                    </div>
+                    <!-- 折扣券 -->
+                    <div class="couponD-wrapper">
+                        <span class="coupon-details">
+                            7.8
+                        </span>
+                        <span class="coupon-unit">
+                            折
+                        </span>
+                        <span class="couponD-type couponD-zkq">
+                            折扣券
+                        </span>
+                    </div>
+                    <!-- 实物券 -->
+                    <div class="couponD-wrapper none">
+                        <span class="coupon-details-word">
+                           这是一个实物
+                           <span class="couponD-type couponD-swq">
+                            实物券
+                        	</span>
+                        </span>
+                    </div>
+                    <p class="couponD-word">测试领取规则23测试领取规则23测试领取规则23测试领取规则23测试领取规则23测试领取规则23测试领取规则23测试领取规则</p>
+                    
+                    <!-- rule -->
+                    <div class="couponD-time">
+                    	<div class="couponD-time-inner">
+                            <p class="couponD-time-rule">有效期</p>
+                            <p class="couponD-time-date">2015-07-28&nbsp;至&nbsp;2015-07-29</p>
+	                       	<p class="couponD-time-rule">使用规则</p>
+	                       	<pre class="couponD-time-date">
+	                       		1、周末及节假日不可使用    
+								2、每次限制使用1张优惠券   
+								3、消费满100可使用 
+							</pre>
+							<pre class="couponD-time-date mt">*不可与其他优惠同时使用</pre>
+	                       	<p class="couponD-time-rule">领取规则</p>
+	                       	<p class="couponD-time-date">每位客户最多可领取12张优惠券</p>
+                    	</div>
+                    </div>
+	        	</div>
+	        	<!-- 公司简介 -->
+	        	<div class="couponD_inner-company mt10">
+	        		<div class="header2">
+                        <span class="small-title">公司简介</span>
+                        <div class="ic_right"></div>
+                    </div>
+                    <div class="couponD_link">                            
+						<p class='omitC'>这是公司简介这是公司简介这是公司简介这是公司简介这是公司这是公司简介这是公司简介这是公司简介这是公司简介这是公司这是公司简介这是公司简介这是公司简介这是公司简介这是公司这是公司简介这是公司简介这是公司简介这是公司简介这是公司简介这是公司简介</p>
+                    </div>
+	        	</div>
+	        	<!-- 联系方式 -->
+	        	<div class="couponD_inner-link mt10">
+	        		<div class="header2">
+                        <span class="small-title">联系方式</span>
+                        <div class="ic_right"></div>
+                    </div>
+                    <div class="couponD_link">                            
+						<p>联系电话：987545789
+							<span class="phone-wrapper">
+		                    <img class="img-wrapper" src="image/theme1/phone.png"></span></p>
+                        <p>地　　址：成华区欣然二街</p>
+                    </div>
+	        	</div>
+	        </article>
+	        <div class="footer1">由北京青牛风科技有限公司©提供技术支持</div>
+	        <!-- 各种按钮状态 -->
+	        <div class="div-pn">
+				<div class="div-pn-inner">
+					<!-- 立即领取 -->
+				    <div class="div-pn-content none">
+				        <div class="btn-receive">立即领取<span>（剩余<span>1000</span>张）</span></div>
+				    </div>
+					<!-- 多少时间之后在领取 -->
+				    <div class="div-pn-content none">
+				        <div class="btn-again">再领一张<span>（00:56）</span></div>
+				    </div>
+				    <!-- 已抢光 -->
+				    <div class="div-pn-content none">
+				        <p class="btn-overdue">已抢光</p>
+				    </div>
+				    <!-- 已过期 -->
+				    <div class="div-pn-content">
+				        <p class="btn-overdue">已过期</p>
+				    </div>
+				</div>
+			</div>
+			<!-- 各种按钮状态end -->
+		</div>
+	</div>
+	<script type="text/javascript">
+		window.onload=function(){
+			$('.couponD-none').css("height",$(".couponD-pic img").css("height"));
+		}
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,187 @@
+.tpage{
+    width: 100%;
+    overflow: hidden;
+}
+.turntable{
+    background: #F46600;
+}
+.turnfooter{
+    padding: 10px;
+    font-size: 12px;
+    color: #484848;
+    text-align: center;
+    background: #E1E1E1;
+    width: 100%;
+    clear: both;
+}
+.turn-title {
+    color: #FFFE01;
+    text-shadow: 4px 4px 4px #FF0000;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.tcloud {
+    background: url(../image/common/t_cloud.png) center bottom no-repeat;
+    background-size: 100% auto;
+    height: 295px;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.tword {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.prizeInfo {
+    color: white;
+    width: 90%;
+    border-collapse: collapse;
+    background: #BA3E00;
+    margin: 5px auto 0px;
+}
+tr {
+    border: 1px solid #FF9306;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+.prizeInfo th, td {
+    border: 1px solid #FF9306;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+.tangle {
+    height: 25px;
+    position: relative;
+    left: 15%;
+    top: 14px;
+}
+.peopleList {
+    background: #BA3E00;
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid #FF9306;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+}
+.t_center {
+    text-align: center;
+}
+.scrollList {
+    background: #FF9306;
+    padding: 10px;
+    height:60px;
+    margin-top: 10px;
+}
+.tdate {
+    width: 90%;
+    margin: 10px auto 0px;
+    font-size: 12px;
+    color: white;
+}
+.beak-word {
+    width: 90%;
+    margin: 0px auto;
+    font-size: 12px;
+    color: white;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-family: "微软雅黑", "宋体", Arial, sans-serif;
+}
+.new_d_content {
+    font-size: 15px;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 20px;
+}
+.w_pre {
+    white-space: pre-wrap;
+    font-family: "微软雅黑", "宋体", Arial;
+}
+.d_content {
+    font-size: 13px;
+    color: #848484;
+    word-wrap: break-word;
+    line-height: 15px;
+}
+.tpd1{
+    padding: 10px 10px 0px 10px;
+}
+.turntable-all{
+    position: relative;
+    width: 100%;
+    height: 295px;
+}
+.turntable-div{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    z-index: 3;
+    top:10px;
+}
+.rotatePan {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    /*top: 10px;*/
+}
+.beginRotate {
+    position: absolute;
+    width: 84px;
+    height: 100px;
+    top: 100px;
+    -webkit-tap-highlight-color: transparent;
+}
+.zp1{
+    background: url(../image/common/zp1.png) 50% 50% / 100% no-repeat;
+    color:red;
+}
+.zz1{
+    background: url(../image/common/butt1.png) 50% 50% / auto 100% no-repeat;
+}
+.pan_roate {
+    -moz-transition-duration: 6s;
+    -o-transition-duration: 6s;
+    -webkit-transition-duration: 6s;
+}
+.rotateDone{
+    position: absolute;
+    z-index: 50;
+    top: 10px;
+    height: 281px;
+    width: 281px;
+    background: url(../image/common/prizedone.png) center center no-repeat;
+    background-size: auto 100%;
+}
+.rotateOverdue{
+    background: url(../image/common/zpend.png) center center no-repeat;
+    background-size: auto 100%;
+}
+.zp2{
+    background: url(../image/common/zp2.png) 50% 50% / 100% no-repeat;
+    color:red;
+}
+.zz2{
+    background: url(../image/common/butt2.png) 50% 50% / auto 100% no-repeat;
+}
+.zp3{
+    background: url(../image/common/zp2.png) 50% 50% / 100% no-repeat;
+    color:red;
+}
+.zz3{
+    background: url(../image/common/butt2.png) 50% 50% / auto 100% no-repeat;
+}
+.pd3{
+    padding: 10px 10px 0px;
+}

@@ -1,0 +1,931 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body,
+div, span, p, a, img, strong, em, small,
+table, caption, tbody, tfoot, thead, tr, th, td,
+form, label, input, button, textarea, select, ul, ol, h3, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: "Microsoft Yahei", "微软雅黑", "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", Tahoma, Arial, STHeiti, sans-serif;
+    vertical-align: baseline;
+    border-collapse: collapse;
+    border-spacing: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ul li, ol li {
+    list-style: none;
+}
+
+*:link, *:visited, *:hover, *:active {
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    border: 0 none;
+}
+
+input, select, textarea {
+    outline: none;
+    border: 0;
+    resize: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix {
+    _zoom: 1;
+}
+
+.clearfix:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+body {
+    font-size: 18px;
+    background: #E1E1E1;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+}
+
+.ex_container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+}
+.w_pre{
+    white-space: pre-wrap;
+}
+.page {
+    margin: 0 auto;
+    padding-bottom: 61px;
+}
+
+/*标题样式*/
+.header {
+    height: 50px;
+    text-align: center;
+    padding: 15px 3% 15px 3%;
+    line-height: 20px;
+    color: white;
+}
+
+.backicon {
+    background: url(http://7xlctd.com1.z0.glb.clouddn.com/image/common/back_white.png) center center;
+    background-size: 100% 100%;
+    height: 19px;
+    width: 17px;
+    left: 10px;
+    position: absolute;
+}
+
+.wmhome {
+    background: url(http://7xlctd.com1.z0.glb.clouddn.com/image/common/mw-home.png) center center;
+    background-size: 100% 100%;
+    height: 26px;
+    width: 26px;
+    float: right;
+    right: 10px;
+    top: 12px;
+    position: absolute;
+}
+
+.color1 {
+    background: #D3533D;
+}
+
+.pd2 {
+    padding: 10px 10px 0px 10px;
+}
+
+.footer {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #484848;
+    text-align: center;
+    background: #E1E1E1;
+}
+
+.couponD_inner {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.couponD_inner1 {
+    background-color: white;
+    padding-bottom: 10px;
+}
+.couponD_inner-link {
+    background-color: white;
+    padding-bottom: 10px;
+}
+.couponD_inner-company {
+    background-color: white;
+    padding-bottom: 10px;
+}
+.couponD_title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.couponD-wrapper {
+    width: 100%;
+    min-height: 30px;
+    padding: 0 10px;
+}
+
+.couponD-type {
+    color: #fff;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    padding: 0px 2px;
+}
+
+.couponD-djq {
+    background-color: #FFA800;
+}
+
+.couponD-swq {
+    background-color: #E42F3F;
+    color: #fff;
+}
+
+.couponD-zkq {
+    background-color: #29A61F;
+    color: #fff;
+}
+
+.coupon-details-word {
+    font-size: 18px;
+    display: inline-block;
+    color: #cf112d;
+    /*line-height: 38px;
+    height: 30px;*/
+    vertical-align: bottom;
+}
+
+.couponD-word {
+    padding: 0px 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 20px;
+}
+
+.couponD-pic {
+    position: relative;
+    width: 100%;
+}
+
+.couponD-pic img {
+    width: 100%;
+}
+
+.couponD-none {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    display: table;
+}
+
+.couponD-none .tips {
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.none {
+    display: none;
+}
+
+.couponD-time {
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.couponD-time-inner {
+    border-top: 1px dashed #A4A4A4;
+}
+
+.couponD-time-rule {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #A7A7A7;
+    word-wrap: break-word;
+    line-height: 15px;
+    padding-top: 10px;
+}
+
+.couponD-time-date {
+    font-size: 15px;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 20px;
+    font-family: "微软雅黑", "宋体", Arial;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.header2 {
+    height: 35px;
+    padding: 10px;
+    line-height: 15px;
+    border-bottom: 1px dashed #A4A4A4;
+}
+
+.small-title {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #A7A7A7;
+}
+
+.ic_right {
+    background: url(http://7xlctd.com1.z0.glb.clouddn.com/image/common/ab.png) center center;
+    background-size: auto 100%;
+    height: 15px;
+    width: 15px;
+    float: right;
+}
+
+.couponD_link {
+    padding: 10px 10px 0px;
+}
+
+.couponD_link p {
+    font-size: 15px;
+    color: #000;
+    word-wrap: break-word;
+    line-height: 25px;
+}
+
+.img-wrapper {
+    width: 12px;
+    height: 12px;
+    float: left;
+}
+
+.phone-wrapper {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #D4D4D4;
+    height: 12px;
+    display: inline-block;
+}
+
+.div-pn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 98;
+    height: 61px;
+}
+
+.div-pn-inner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.div-pn-content {
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    background-color: rgb(218, 217, 217);
+}
+
+.btn-overdue {
+    margin: 0;
+    width: 100%;
+    height: 42px;
+    line-height: 40px;
+    text-align: center;
+    background: #A0A0A0;
+    color: #fff;
+}
+
+.btn-receive {
+    height: 42px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #D3533D;
+    display: inline-block;
+    font-size: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    overflow: hidden;
+    line-height: 42px;
+}
+
+.btn-receive span {
+    font-size: 12px;
+}
+
+.btn-again {
+    margin: 0;
+    width: 100%;
+    height: 42px;
+    display: block;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    background: #A0A0A0;
+    color: #fff;
+}
+
+.btn-again span {
+    font-size: 12px;
+}
+
+.btntwo-inner {
+    width: 100%;
+    height: 61px;
+}
+
+.btntwo-left {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #fff;
+    width: 49%;
+    float: left;
+    height: 40px;
+    line-height: 28px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: #A0A0A0;
+}
+
+.btntwo-right {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #fff;
+    width: 49%;
+    float: right;
+    height: 40px;
+    line-height: 28px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background: #D3533D;
+}
+
+.coupon-details {
+    display: inline-block;
+    color: #cf112d;
+    font-size: 30px;
+    line-height: 33px;
+    height: 29px;
+    vertical-align: bottom;
+}
+
+.coupon-unit {
+    display: inline-block;
+    color: #cf112d;
+    line-height: 33px;
+    height: 26px;
+    vertical-align: bottom;
+}
+
+/*关于我们*/
+.footer1 {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #484848;
+    text-align: center;
+    background: #E1E1E1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+/*联系我们*/
+.link-map {
+    width: 100%;
+    margin-top: 8px;
+    display:block;
+}
+
+.mt20 {
+    margin-top: 0px;
+}
+
+/*输入手机号弹框*/
+.input-tel {
+    width: 90%;
+    height: 214px;
+    position: fixed;
+    left: 5%;
+    top: 50%;
+    margin-top: -107px;
+    z-index: 102;
+}
+
+.input-tel-inner {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #F7F7F7;
+    border-radius: .4em .4em .4em .4em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.input-tel-title {
+    padding: 10px;
+    color: white;
+    border-radius: .4em .4em 0 0;
+    background: #D3533D;
+    padding-left: 24px;
+    font-size: 16px;
+}
+
+.input-tel-num {
+    padding: 10px;
+    width: 90%;
+    border: 0px;
+    font-size: 16px;
+    margin: 35px auto 0px;
+    display: block;
+    font-weight: normal;
+}
+
+.input-tel-btn {
+    font-size: 16px;
+    line-height: 33px;
+    width: 90%;
+    background: #D3533D;
+    border-radius: .2em .2em .2em .2em;
+    color: white;
+    height: 35px;
+    margin: 28px auto 0px;
+    text-align: center;
+}
+
+.input-tel-p {
+    padding: 10px;
+    width: 90%;
+    font-size: 16px;
+    margin: 35px auto 0px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.input-tel-p2 {
+    padding: 10px;
+    width: 90%;
+    font-size: 15px;
+    margin: 20px auto 0px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.input-tel-btnmt {
+    margin-top: 25px;
+}
+
+/*最新优惠*/
+.page_list{
+    margin: 0 auto;
+    padding-bottom: 38px;
+}
+
+.cl-right {
+    background: url(http://7xlctd.com1.z0.glb.clouddn.com/image/common/ent.png) center center;
+    background-size: 100% 100%;
+    height: 26px;
+    width: 26px;
+    float: right;
+    right: 10px;
+    top: 12px;
+    position: absolute;
+}
+
+.couponl_inner {
+    background-color: white;
+    margin-top:10px;
+}
+
+.couponl_inner:first-child{
+    margin-top:0px;
+}
+
+.couponl_inner_left {
+    height: 105px;
+    width: 76%;
+    padding: 8px;
+    float: left;
+}
+
+.couponl_inner_right {
+    position: relative;
+    height: 105px;
+    width: 24%;
+    float: right;
+}
+
+.couponl-left-title{
+    height: 20px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.couponl-left-description{
+    height: 42px;
+    overflow: hidden;
+    width: 100%;
+    word-wrap: break-word;
+    line-height: 14px;
+    font-size: 11px;
+    color: #A4A4A4;
+    margin-top: 5px;
+}
+
+.couponl-left-time{
+    font-size: 11px;
+    color: #A4A4A4;
+    margin-top: 5px;
+}
+
+.couponl-right-mask{
+    width: 100%;
+    padding:5px 0px;
+    background-color:black;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.7;
+    text-align: center;
+    z-index: 20;
+    font-size: 10px;
+    color: white;
+}
+
+.couponl-type {
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    padding: 0px 2px;
+    z-index: 10;
+}
+
+.couponl-djq {
+    background-color: #FFA800;
+}
+
+.couponl-swq {
+    background-color: #E42F3F;
+}
+
+.couponl-zkq {
+    background-color: #29A61F;
+}
+
+/*微观网首页*/
+.indexPage{
+    padding-bottom:38px;
+}
+
+.index-pd{
+    padding:0px;
+}
+.index-picShow{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+}
+.swiper-container{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height:100%; 
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;z-index:1;
+}
+.swiper-wrapper{
+    position:relative;
+    width:100%;
+    height:100%; 
+    -webkit-transition-property:-webkit-transform, left, top;
+    -webkit-transition-duration:0s;
+    -webkit-transform:translate3d(0px,0,0);
+    -webkit-transition-timing-function:ease;
+    -moz-transition-property:-moz-transform, left, top;
+    -moz-transition-duration:0s;
+    -moz-transform:translate3d(0px,0,0);
+    -moz-transition-timing-function:ease;
+    -o-transition-property:-o-transform, left, top;
+    -o-transition-duration:0s;
+    -o-transform:translate3d(0px,0,0);
+    -o-transition-timing-function:ease;
+    -o-transform:translate(0px,0px);
+    
+    -ms-transition-property:-ms-transform, left, top;
+    -ms-transition-duration:0s;
+    -ms-transform:translate3d(0px,0,0);
+    -ms-transition-timing-function:ease;
+    
+    transition-property:transform,left,top;
+    transition-duration:0s;
+    transform:translate3d(0px,0,0);
+    transition-timing-function:ease;
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing:content-box;box-sizing:content-box;}
+.swiper-slide{
+    float:left;
+    -webkit-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    box-sizing:content-box;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.swiper-slide img{
+    height:100%;
+}
+.pagination{
+    position:absolute;
+    left:0;
+    text-align:center;
+    bottom:6px;
+    width:100%;
+    z-index:10;
+    
+}
+.swiper-pagination-switch{
+    display:inline-block;
+    width:8px;
+    height:8px;
+    border-radius:8px;
+    background:#fff;
+    margin:0 3px;
+    border: 1px solid #fff;
+}
+.swiper-active-switch{
+    background: #d75669;
+    border: 1px solid #d75669;
+}
+
+.index-zxyh,.index-cpjs,.index-gywm,.index-lxwm{
+    height: 100px;
+    margin-top: 2%;
+}
+
+/*最新优惠*/
+.index-zxyh-div1,.index-gywm-div1{
+    float:right;
+    width: 48%;
+    height: 100px;
+    background: #EEEEEE;
+    text-align: center;
+    line-height:100px;
+    overflow:hidden;
+    margin-right:2%;
+}
+.index-zxyh-div2{
+    float:left;
+    width: 48%;
+    height: 100px;
+    margin-left: 2%;
+    background-color: #3CD488;
+    color: #FFFFFF;
+}
+.index-zxyh-div2 div,.index-cpjs-div2 div,.index-gywm-div2 div,.index-lxwm-div2 div{
+    width:100%;
+    height:35px;
+    text-align:center;
+    position:relative;
+    padding-right:25px;
+    line-height:100px;
+}
+
+.index-zxyh-div2 div:after,.index-cpjs-div2 div:after,.index-gywm-div2 div:after,.index-lxwm-div2 div:after{
+    content:"";
+    height:25px;
+    width:33px;
+    display:inline-block;
+    background:url('http://7xlctd.com1.z0.glb.clouddn.com/image/common/icr1.png') 5px 0 no-repeat;
+    background-size: auto 100%;
+    position:absolute; 
+    top:37.5px       
+}
+/*产品介绍*/
+.index-cpjs-div1,.index-lxwm-div1{
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+    height: 100px;
+    color: #FFFFFF;
+    background-color: #EEEEEE;
+    text-align: center;
+    line-height:100px;
+    overflow:hidden;
+}
+.index-cpjs-div2{
+    float:left;
+    width: 48%;
+    height: 100px;
+    background-color: #e6310a;
+    color: #FFFFFF;
+}
+/*关于我们*/
+.index-gywm-div2{
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+    height: 100px;
+    color: #FFFFFF;
+    background-color: #43B3C1;
+    text-align: center;
+    line-height:100px;
+    overflow:hidden;
+}
+/*联系我们*/
+.index-lxwm-div2{
+    float:left;
+    width: 48%;
+    height: 100px;
+    background-color: #5192D1;
+    color: #FFFFFF;
+}
+.index-zxyh-div1 img,.index-cpjs-div1 img {
+    height: 35px;
+    vertical-align: middle;
+}
+
+.index-gywm-div1 img,.index-lxwm-div1 img {
+    height: 45px;
+    vertical-align: middle;
+}
+.app_download{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    background: url(http://7xlctd.com1.z0.glb.clouddn.com/image/common/appblack.png);
+    width: 100%;
+    padding: 5px;
+    color: white;
+    z-index: 99;
+}
+.icon-app {
+    width: 33px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.slogan-app {
+    height: 35px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.close-app {
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.close-app img {
+    height: 15px;
+}
+.get-app {
+    padding: 7px;
+    border-radius: 7px;
+    border: 0;
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color: #ce121a;
+    color: #fff;
+}
+.img-left .couponl_inner_left{
+    float:right;
+}
+.img-left .couponl_inner_right{
+    float:left;
+}
+.link-ontainer {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    position: relative;
+}
+.take-bus{
+    padding:10px;
+}
+.take-bus dl,.take-line dl{
+    font-size: 15px;
+    color: #484848;
+}
+.take-bus dl dt,.take-line dl dt{
+    float: left;
+}
+.take-bus dl dd,.take-line dl dd{
+    padding-left: 68px;
+    word-break: break-all;
+}
+.take-line{
+    padding:0px 10px 0px 10px;
+}
+.map-shop{
+    padding: 6px;
+    background-color: #D3533D;
+    position: fixed;
+    left: 0px;
+    top: 105px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #cdccca;
+    box-shadow: 2px -2px 2px #cdccca;
+}
+.map-shop-title{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    line-height: 25px;
+    text-align:center;
+    color: #D3533D;
+    font-size: 15px;
+}
+.map-shop span{
+    font-size: 12px;
+    width: 13px;
+    display: block;
+    margin:5px auto;
+    color: white;
+}
+.couponD_link .omitC {
+    max-height: 61px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: -o-ellipsis-lastline;
+    line-height: 20px;
+}
