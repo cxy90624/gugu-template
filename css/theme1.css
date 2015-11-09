@@ -929,3 +929,93 @@ html, body {
     text-overflow: -o-ellipsis-lastline;
     line-height: 20px;
 }
+/*弹框登录*/
+.alogin-inner {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: .4em .4em .4em .4em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding-bottom:13px;
+    background-color:#e2e2db;
+}
+.login-alert-cont{
+    padding:10px;
+}
+.login-alert-cont-inner{
+    background-color:white;
+}
+.alogin-yzm{
+    position: relative;
+    border-bottom:1px solid #ecece7;
+    padding:5px 5px 5px 0px;
+}
+.a-span{
+    position: absolute;
+    left:5px;
+    font-size: 16px;
+    color: #3e3e3d;
+    top:5px;
+    line-height: 41px;
+}
+.alogin-num {
+    padding: 10px 10px 10px 65px;
+    width: 65%;
+    border: 0px;
+    font-size: 16px;
+    float: left;
+    box-sizing: border-box;
+}
+.login-yzm-div{
+    width: 35%;
+    float: right;
+    line-height: 41px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.alogin-print{
+    position:relative;
+}
+.a-span1{
+    position: absolute;
+    left:5px;
+    font-size: 16px;
+    color: #3e3e3d;
+    top:0px;
+    line-height: 41px;
+}
+.alogin-print-input{
+    padding: 10px 10px 10px 65px;
+    width: 100%;
+    border: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.alogin-agreement {
+    font-size: 13px;
+    color: #848484;
+    word-wrap: break-word;
+    line-height: 15px;
+    text-align: center;
+}
+.alogin-a{
+    color:#D3533D;
+}
+.alogin-btn {
+    background: #BFBFBF;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    width: 50%;
+    margin: 15px auto 0px;
+    font-size: 16px;
+}
+.yzm-color{
+    background: #00ACEE;
+}
+.yzm-color1{
+    background: #BFBFBF;
+}

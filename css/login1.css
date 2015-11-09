@@ -1,0 +1,67 @@
+.login-title{
+    font-size: 24px;
+    padding:10px;
+    margin-top:30px;
+    text-align: center;
+}
+.login-cont{
+    padding: 30px 10px 10px;
+    width: 100%;
+    background: #F7F7F7;
+}
+.login-yzm{
+    overflow: hidden;
+}
+.login-num{
+    padding: 10px;
+    width: 65%;
+    border: 0px;
+    font-size: 16px;
+    float: left;
+}
+.login-yzm-div{
+    width: 35%;
+    float: right;
+    line-height: 39px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.yzm-color{
+    background: #00ACEE;
+}
+.yzm-color1{
+    background: #BFBFBF;
+}
+.login-print{
+    margin-top:10px;
+}
+.login-print-input{
+    padding: 10px;
+    width: 100%;
+    border: 0px;
+    font-size: 16px;
+}
+.login-agreement{
+    font-size: 13px;
+    color: #848484;
+    word-wrap: break-word;
+    line-height: 15px;
+    text-align: center;
+    margin-top:20px;
+}
+.login-check{
+    border: 0px;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+.login-btn{
+    background: #BFBFBF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin: 20px auto 0px;
+    font-size: 16px;
+}

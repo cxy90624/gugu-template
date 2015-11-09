@@ -185,3 +185,44 @@ tr {
 .pd3{
     padding: 10px 10px 0px;
 }
+.show-mask{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:4;
+    background-color:black;
+    opacity: 0.5;
+}
+
+.alert-bg{
+    width:100%;
+}
+.alert-result{
+    width:auto;
+    padding:0px 10px 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    color:#585858;
+    font-weight: normal;
+}
+.alert-cont {
+    padding: 0px 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #585858;
+    line-height: 22px;
+}
+.alert-btn{
+    width:88%;
+    height:38px;
+    line-height: 38px;
+    font-size: 15px;
+    text-align: center;
+    color:white;
+    background-color:#cf102c;
+    border-radius: 5px;
+    margin: 20px auto 0px;
+}
+
